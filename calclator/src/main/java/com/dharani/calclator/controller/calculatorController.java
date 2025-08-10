@@ -23,9 +23,4 @@ public class calculatorController {
         int result= service.sub(a,b);
         return "Output is : "+result;
     }
-      @GetMapping("/mul/{a}/{b}")
-    public String mul(@PathVariable int a,@PathVariable int b){
-        int result= service.mul(a,b);
-        return "Output is : "+result;
     }
-}

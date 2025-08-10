@@ -10,4 +10,8 @@ public class calculatorService {
       int result= a+b;
        return result;
     }
+    public int sub(@PathVariable int a, @PathVariable int b){
+        int result= a-b;
+        return result;
+    }
 }

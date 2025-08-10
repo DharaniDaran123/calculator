@@ -18,4 +18,9 @@ public class calculatorController {
           int result= service.add(a,b);
         return "Output is : "+result;
     }
+    @GetMapping("/sub/{a}/{b}")
+    public String sub(@PathVariable int a,@PathVariable int b){
+        int result= service.sub(a,b);
+        return "Output is : "+result;
+    }
 }

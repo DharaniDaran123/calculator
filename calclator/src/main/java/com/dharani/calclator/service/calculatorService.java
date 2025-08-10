@@ -14,8 +14,4 @@ public class calculatorService {
         int result= a-b;
         return result;
     }
-       public int mul(@PathVariable int a, @PathVariable int b){
-        int result= a*b;
-        return result;
-    }
 }
